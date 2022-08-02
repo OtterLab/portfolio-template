@@ -1,0 +1,51 @@
+.contactSection {
+    background-color: #242A35;
+    height: 120vh;
+}
+
+.contactHeadingContainer {
+    text-align: center;
+}
+
+.contactHeadingText {
+    position: relative;
+    bottom: 3.5em;
+    right: 1.8em;
+    text-align: center;
+}
+
+.overlayContactHeading {
+    text-transform: uppercase;
+    font-size: 7rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.3);
+    opacity: 0.3;
+    position: relative;
+    top: .3em;
+}
+
+.contactUnderline span {
+    padding: 0 28px;
+    position: relative;
+    bottom: .6em;
+    margin-right: .2em;
+    border-bottom: 4px solid white;
+}
+
+.contactCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactImg {
+    width: 170%;
+    position: relative;
+    right: 110%;
+}
+
+/* apply margin-top 2nd row */
+.contactInfo:nth-child(2) {
+    margin-top: 34px;
+}

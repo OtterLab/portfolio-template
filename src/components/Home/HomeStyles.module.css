@@ -1,0 +1,35 @@
+.section {
+    background-image: url('../../assets/hero_image_cover.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.content {
+    height: 90%;
+}
+
+.container {
+    height: 90%;
+}
+
+.avatar {
+    height: 350px;
+    width: 350px;
+}
+
+.textLine span { 
+    padding: 0 18px;
+    position: relative;
+    left: 3px;
+    bottom: 16px;
+    border-bottom: 3px solid #242A35;
+    margin-right: .6em;
+}
+
+.socialHero {
+    display: flex;
+    position: relative;
+    top: 10em;
+}

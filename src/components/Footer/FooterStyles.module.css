@@ -1,0 +1,19 @@
+.footerContainer {
+    background-color: #222732;
+    height: 50px;
+}
+
+.footerContent {
+    padding-top: 4px;
+}
+
+.footerText {
+    position: relative;
+    bottom: 13px;
+}
+
+.copyrightIcon {
+    position: relative;
+    left: 40%;
+    top: 11px;
+}

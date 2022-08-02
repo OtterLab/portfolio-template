@@ -1,0 +1,140 @@
+.projectSection {
+    background-color: #282F3B;
+    padding-bottom: 8em;
+}
+
+.projectContainer {
+    position: relative;
+    top: 1em;
+}
+
+.projectHeadingContainer {
+    text-align: center;
+}
+
+.projectHeadingText {
+    position: relative;
+    bottom: 3.5em;
+    right: 1.8em;
+    text-align: center;
+}
+
+.overlayProjectHeading {
+    text-transform: uppercase;
+    font-size: 7rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.3);
+    opacity: 0.3;
+    position: relative;
+    top: .3em;
+}
+
+.projectUnderline span {
+    padding: 0 28px;
+    position: relative;
+    bottom: .6em;
+    margin-right: .2em;
+    border-bottom: 4px solid white;
+}
+
+/* Project card */
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 2em;
+    width: 80%;
+    left: 11%;
+}
+
+.projectImg {
+    width: 300px;
+    height: 220px;
+    border-radius: 10px;
+    transform: translateZ(40px);
+}
+
+.card {
+    width: 300px;
+    height: 250px;
+    margin-right: 1.2em;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+
+.cardBody {
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, -40px) rotateY(180deg);
+    width: 275px;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 5px solid #FCB51D;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.cardBody .bg {
+    position: absolute;
+    background-color: white;
+    border-radius: 100px;
+    width: 0%;
+    transition: .5s;
+}
+
+.cardBody .bg:nth-child(1) {
+    height: 60%;
+    transform-origin: left;
+    top: 0;
+    left: -30%;
+    transform: rotate(-10deg);
+}
+
+.cardBody .bg:nth-child(2) {
+    height: 50%;
+    transform-origin: right;
+    top: 5%;
+    right: -30%;
+    transform: rotate(-10deg);
+}
+
+.cardBody .bg:nth-child(3) {
+    height: 60%;
+    transform-origin: left;
+    top: 70%;
+    left: -30%;
+    transform: rotate(-10deg);
+}
+
+.card:hover .cardBody .bg {
+    width: 200%;
+    transition-delay: 1s;
+}
+
+.card:hover .cardBody .bg:nth-child(2) {
+    transition-delay: 1.5s;
+}
+
+.card:hover .cardBody .bg:nth-child(3) {
+    transition-delay: 2s;
+}
+
+.cardContent {
+    position: relative;
+    top: 28px;
+    opacity: 0;
+    transition: .5s;
+    padding: 20px;
+    text-align: center;
+}
+
+.card:hover .cardContent {
+    opacity: 1;
+    transition-delay: 2.5s;
+}

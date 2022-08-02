@@ -1,0 +1,55 @@
+.logoImage {
+    height: 65px;
+    width: 65px;
+    padding-top: 5px;
+}
+
+.navLinkItems {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-right: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 4px;
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.navMenuList {
+    width: 240px;
+    text-align: center;
+    text-decoration: none;
+    color: #242A35;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+    padding: 10px;
+    border-radius: 4px;
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.navLinkItems:hover, .navMenuList:hover {
+    background-color: #FCB51D;
+}
+
+/* Navbar mobile */
+.closeIconBtn {
+    text-align: right;
+    position: relative;
+    top: 1em;
+    right: 15px;
+}
+
+.logoContent {
+    position: relative;
+    top: 60px;
+    text-align: center;
+}
+
+.logoMini {
+    width: 50px;
+    height: 50px;
+}

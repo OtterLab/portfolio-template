@@ -1,0 +1,39 @@
+.aboutSection {
+    background-color: #282F3B;
+    height: 90vh;
+}
+
+.aboutContainer {
+    position: relative;
+    left: 4em;
+    top: 7em;
+}
+
+.downloadBtn {
+    margin-top: 2em;
+    margin-left: 1.9em;
+}
+
+.overlayAboutHeading {
+    position: relative;
+    left: .3em;
+    text-transform: uppercase;
+    font-size: 7rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.3);
+    opacity: 0.3;
+}
+
+.aboutHeadingContent {
+    position: relative;
+    right: .5em;
+    bottom: 1.3em;
+}
+
+.aboutUnderline span {
+    padding: 0 28px;
+    position: relative;
+    bottom: .7em;
+    margin-right: .2em;
+    border-bottom: 4px solid white;
+}
