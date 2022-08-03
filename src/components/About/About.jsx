@@ -8,6 +8,7 @@ import DownloadIcon from '@mui/icons-material/Download';
 import Link from '@mui/material/Link';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import cvPDF from '../../assets/cv/ltcreative_resume.pdf';
 
 const aboutTheme = createTheme ({
     components: {
@@ -72,7 +73,10 @@ function About() {
                             personal interests include travelling, shopping and looking at architecture.
                         </Typography>
                         <div className={classes.downloadBtn}>
-                            <Button variant="contained" endIcon={<DownloadIcon/>}>Download cv</Button>
+                            <Button variant="contained" endIcon={<DownloadIcon/>}
+                                component={Link} href={cvPDF} download="LT Creative CV">
+                                Download cv
+                            </Button>     
                         </div>
                     </div>
                 </Container>
