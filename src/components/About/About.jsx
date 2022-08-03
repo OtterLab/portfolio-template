@@ -27,6 +27,13 @@ const aboutTheme = createTheme ({
         }
     },
     typography: {
+        // overlay heading
+        h1: {
+            textTransform: 'uppercase',
+            fontSize: '7rem',
+            fontWeight: '600',
+            letterSpacing: '2px'
+        },
         h4: {
             paddingBottom: '.8em',
             position: 'relative',
@@ -61,7 +68,7 @@ function About() {
                 <Container maxWidth="lg" className={classes.aboutContainer}>
                     <div data-aos="fade-up">
                         <div className={classes.aboutHeadingContainer}>
-                            <div className={classes.overlayAboutHeading}>About Me</div>
+                            <Typography variant="h1" className={classes.overlayAboutHeading}>About Me</Typography>
                             <div className={classes.aboutHeadingContent}>
                                 <Typography variant="h4" className={classes.aboutUnderline}><span></span>Know Me More</Typography>
                             </div>

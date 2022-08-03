@@ -15,6 +15,13 @@ import 'aos/dist/aos.css';
 
 const contactTheme = createTheme ({
     typography: {
+        // overlay heading
+        h1: {
+            fontSize: '7rem',
+            fontWeight: '600',
+            textTransform: 'uppercase',
+            letterSpacing: '2px'
+        },
         h4: {
             color: 'white'
         },
@@ -52,7 +59,7 @@ function Contact() {
                 <div data-aos="fade-down" data-aos-easing="linear">
                     <div className={classes.contactContainer}>
                         <div className={classes.contactHeadingContainer}>
-                            <div className={classes.overlayContactHeading}>Contact</div>
+                            <Typography variant="h1" className={classes.overlayContactHeading}>Contact</Typography>
                             <div className={classes.contactHeadingText}>
                                 <Typography variant="h4" className={classes.contactUnderline}><span></span>Get In Touch</Typography>
                             </div>

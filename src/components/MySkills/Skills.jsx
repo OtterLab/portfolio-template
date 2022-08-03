@@ -7,10 +7,21 @@ import 'aos/dist/aos.css';
 
 const skillTheme = createTheme ({
     typography: {
+        // overlay heading
+        h1: {
+            fontSize: '7rem',
+            textTransform: 'uppercase',
+            fontWeight: '600',
+            letterSpacing: '2px'
+        },
         h4: {
             fontWeight: '500',
             paddingBottom: '.5em',
             color: 'white'
+        },
+        body1: {
+            color: 'white',
+            fontWeight: '300'
         }
     }
 });
@@ -26,10 +37,18 @@ function Skills() {
             <ThemeProvider theme={skillTheme}>
                 <div data-aos="fade-left" data-aos-easing="ease-in-sine">
                     <div className={classes.skillHeadingContainer}>
-                        <div className={classes.overlaySkillHeading}>Skills</div>
+                        <Typography variant="h1" className={classes.overlaySkillHeading}>Skills</Typography>
                         <div className={classes.skillHeadingText}>
                             <Typography variant="h4" className={classes.skillUnderline}><span></span>My Skills</Typography>
                         </div>
+                    </div>
+                    <div className={classes.skillsText}>
+                        <Typography variant="body1">
+                            I create responsive websites, progressive web applications which is easy to use and simple interface.
+                            My field of area is frontend development, building small to medium websites using JavaScript frameworks like ReactJS, VueJS and user interface libraries
+                            include Vuetify, Material UI, Semantic UI and BootStrap. I also experience in developing websites with open-source CMS
+                            like (WordPress, Wix, Drupal and Shopify).
+                        </Typography>
                     </div>
                 
                     <div className={classes.skillBarContent}>

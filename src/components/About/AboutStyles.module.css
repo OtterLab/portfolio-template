@@ -17,9 +17,6 @@
 .overlayAboutHeading {
     position: relative;
     left: .3em;
-    text-transform: uppercase;
-    font-size: 7rem;
-    font-weight: 600;
     color: rgba(255, 255, 255, 0.3);
     opacity: 0.3;
 }

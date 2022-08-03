@@ -16,9 +16,6 @@
 }
 
 .overlaySkillHeading {
-    text-transform: uppercase;
-    font-size: 7rem;
-    font-weight: 600;
     color: rgba(255, 255, 255, 0.3);
     opacity: 0.3;
     position: relative;
@@ -31,6 +28,14 @@
     bottom: .6em;
     margin-right: .2em;
     border-bottom: 4px solid white;
+}
+
+.skillsText {
+    width: 60%;
+    position: relative;
+    left: 6.2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
 }
 
 /* skill bar */

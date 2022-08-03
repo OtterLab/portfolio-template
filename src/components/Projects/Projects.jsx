@@ -56,6 +56,13 @@ const projectMenuItems = [
 
 const projectTheme = createTheme ({
     typography: {
+        // overlay heading
+        h1: {
+            fontSize: '7rem',
+            fontWeight: '600',
+            textTransform: 'uppercase',
+            letterSpacing: '2px'
+        },
         h4: {
             color: 'white'
         },
@@ -104,7 +111,7 @@ function Projects() {
                 <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                     <div className={classes.projectContainer}>
                         <div className={classes.projectHeadingContainer}>
-                            <div className={classes.overlayProjectHeading}>Projects</div>
+                            <Typography variant="h1" className={classes.overlayProjectHeading}>Projects</Typography>
                             <div className={classes.projectHeadingText}>
                                 <Typography variant="h4" className={classes.projectUnderline}><span></span>Recent Work</Typography>
                             </div>
