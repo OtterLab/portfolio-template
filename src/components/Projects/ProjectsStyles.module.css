@@ -30,7 +30,7 @@
     padding: 0 28px;
     position: relative;
     bottom: .6em;
-    margin-right: .2em;
+    margin-right: .3em;
     border-bottom: 4px solid white;
 }
 
@@ -134,4 +134,22 @@
 .card:hover .cardContent {
     opacity: 1;
     transition-delay: 2.5s;
+}
+
+@media only screen and (max-width: 480px) {
+    .projectSection {
+        padding-bottom: 3em;
+    }
+
+    .card {
+        position: relative;
+        bottom: 3em;
+    }
+
+    .projectUnderline span {
+        padding: 0 20px;
+        position: relative;
+        bottom: .6em;
+        margin-right: .3em;
+    }
 }

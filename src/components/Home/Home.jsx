@@ -32,12 +32,15 @@ const socialMenuItems = [
     { icon: GitHubIcon, href: 'https://github.com/OtterLab', name: 'github' }
 ];
 
-const heroTheme = createTheme ({
+const heroTheme = createTheme({
     typography: {
         h2: {
             fontWeight: '500',
             color: '#242A35',
-            paddingTop: '6px'
+            paddingTop: '6px',
+            "@media (max-width:480px)": {
+                fontSize: '1.8rem'
+            }
         },
         h5: {
             color: '#242A35',
@@ -68,6 +71,7 @@ const heroTheme = createTheme ({
 });
 
 function Home() {
+
     return (  
         <div>
             <Paper className={classes.section} square elevation={0}>
@@ -91,9 +95,11 @@ function Home() {
                                         }}
                                         />
                                     </Typography>
+                                    
                                     <Box sx={{paddingTop: '1em'}}>
                                         <Link to="/about" style={{textDecoration: 'none'}}>
-                                            <Button variant="contained" endIcon={<ArrowCircleRightOutlinedIcon style={{fontSize: '25', marginLeft: '4px'}}/>}>About me</Button>
+                                            <Button variant="contained"
+                                            endIcon={<ArrowCircleRightOutlinedIcon style={{fontSize: '25', marginLeft: '4px'}}/>}>About me</Button>
                                         </Link>
                                     </Box>
                                     <div className={classes.socialHero}>

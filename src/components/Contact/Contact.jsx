@@ -20,17 +20,28 @@ const contactTheme = createTheme ({
             fontSize: '7rem',
             fontWeight: '600',
             textTransform: 'uppercase',
-            letterSpacing: '2px'
+            letterSpacing: '2px',
+            "@media (max-width:480px)": {
+                fontSize: '4rem',
+                lineHeight: '2em'
+            }
         },
         h4: {
-            color: 'white'
+            color: 'white',
+            "@media (max-width:480px)": {
+                position: 'relative',
+                bottom: '.3em'
+            }
         },
         h5: {
             textTransform: 'uppercase',
             fontWeight: '500',
             color: 'white',
             letterSpacing: '2px',
-            marginTop: '2em'
+            marginTop: '2em',
+            "@media (max-width:480px)": {
+                fontSize: '20px'
+            }
         },
         body1: {
             color: 'white',

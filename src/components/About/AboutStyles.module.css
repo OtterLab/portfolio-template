@@ -31,6 +31,30 @@
     padding: 0 28px;
     position: relative;
     bottom: .7em;
-    margin-right: .2em;
+    margin-right: .3em;
     border-bottom: 4px solid white;
+}
+
+@media only screen and (max-width: 480px) {
+    .aboutContainer {
+        position: relative;
+        left: .1em;
+        top: 4em;
+    }
+    
+    .aboutUnderline span {
+        padding: 0 20px;
+        position: relative;
+        bottom: .7em;
+        margin-right: .5em;
+    }
+
+    .overlayAboutHeading {
+        position: relative;
+        left: .6em;
+    }
+
+    .aboutSection {
+        height: 100vh;
+    }
 }

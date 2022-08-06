@@ -46,10 +46,11 @@ function Navbar() {
                     </Hidden>
                 </Toolbar>
             </Container>
-            <SwipeableDrawer anchor="right" open={openMenu} onOpen={() => setOpenMenu(true)} onClose={() => setOpenMenu(false)}>
+            <SwipeableDrawer anchor="right" open={openMenu} onOpen={() => setOpenMenu(true)} 
+                PaperProps={{sx: {backgroundColor: '#222732'} }} onClose={() => setOpenMenu(false)}>
                 <div className={classes.closeIconBtn}>
                     <IconButton onClick={() => setOpenMenu(false)}>
-                        <CloseIcon style={{fontSize: '30', color: '#242A35'}}/>
+                        <CloseIcon style={{fontSize: '30', color: 'white'}}/>
                     </IconButton>
                 </div>
                 <List sx={{width: '100%', marginTop: '1.4em'}}>

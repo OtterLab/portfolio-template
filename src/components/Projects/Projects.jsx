@@ -61,10 +61,20 @@ const projectTheme = createTheme ({
             fontSize: '7rem',
             fontWeight: '600',
             textTransform: 'uppercase',
-            letterSpacing: '2px'
+            letterSpacing: '2px',
+            "@media (max-width:480px)": {
+                fontSize: '3.2rem',
+                lineHeight: '2em'
+            }
         },
         h4: {
-            color: 'white'
+            color: 'white',
+            letterSpacing: '2px',
+            "@media (max-width:480px)": {
+                position: 'relative',
+                left: '.7em',
+                bottom: '2px'
+            }
         },
         subtitle1: {
             color: '#242A35',

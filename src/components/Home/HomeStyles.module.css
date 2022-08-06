@@ -33,3 +33,17 @@
     position: relative;
     top: 10em;
 }
+
+/* mobile */
+@media only screen and (max-width: 480px) {
+    .avatar {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        left: 15%;
+    }
+    
+    .socialHero {
+        display: none;
+    }
+}

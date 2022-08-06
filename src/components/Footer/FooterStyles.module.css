@@ -17,3 +17,10 @@
     left: 40%;
     top: 11px;
 }
+
+@media only screen and (max-width: 480px) {
+    .copyrightIcon {
+        position: relative;
+        left: 16%;
+    }
+}

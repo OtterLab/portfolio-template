@@ -12,12 +12,23 @@ const skillTheme = createTheme ({
             fontSize: '7rem',
             textTransform: 'uppercase',
             fontWeight: '600',
-            letterSpacing: '2px'
+            letterSpacing: '2px',
+            "@media (max-width: 480px)": {
+                fontSize: '4.3rem',
+                position: 'relative',
+                top: '.6em'
+            }
         },
         h4: {
             fontWeight: '500',
             paddingBottom: '.5em',
-            color: 'white'
+            color: 'white',
+            letterSpacing: '2px',
+            "@media (max-width:480px)": {
+                position: 'relative',
+                right: '1.7em',
+                top: '1em'
+            }
         },
         body1: {
             color: 'white',

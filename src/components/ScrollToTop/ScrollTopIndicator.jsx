@@ -17,7 +17,11 @@ const scrollToTopTheme = createTheme ({
                         transition: '0.3s',
                         backgroundColor: '#FCB51D'
                     },
-                    
+                    "@media (max-width:480px)": {
+                        position: 'fixed',
+                        right: '1em',
+                        bottom: '3vh'
+                    }
                 }
             }
         }
