@@ -13,8 +13,11 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     padding: 5px;
-    border-radius: 4px;
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.navLinkItems:hover {
+    color: #FCB51D;
 }
 
 .navMenuList {
@@ -27,13 +30,11 @@
     text-transform: uppercase;
     margin-bottom: .5em;
     padding: 10px;
-    border-radius: 4px;
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
-.navLinkItems:hover, .navMenuList:hover {
-    background-color: #FCB51D;
-    color: #242A35;
+.navMenuList:hover {
+    color: #FCB51D;
 }
 
 /* Navbar mobile */

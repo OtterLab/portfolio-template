@@ -21,6 +21,7 @@ const navMenuItems = [
 ];
 
 function Navbar() {
+    
     const [openMenu, setOpenMenu] = useState(false);
 
     return (  
@@ -47,7 +48,7 @@ function Navbar() {
                 </Toolbar>
             </Container>
             <SwipeableDrawer anchor="right" open={openMenu} onOpen={() => setOpenMenu(true)} 
-                PaperProps={{sx: {backgroundColor: '#222732'} }} onClose={() => setOpenMenu(false)}>
+                PaperProps={{sx: {backgroundColor: '#1E232D'} }} onClose={() => setOpenMenu(false)}>
                 <div className={classes.closeIconBtn}>
                     <IconButton onClick={() => setOpenMenu(false)}>
                         <CloseIcon style={{fontSize: '30', color: 'white'}}/>

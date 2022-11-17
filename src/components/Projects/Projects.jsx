@@ -13,30 +13,30 @@ const projectMenuItems = [
     { 
         id: '1', 
         category: 'Brand Design',
-        projectImage: '', // require('') method in react
+        projectImage: require('../../assets/project_cover_image/asian_gallery_cover.png'), // require('') method in react
         projectTitle: 'Asian Gallery Restaurant', 
-        url: '' 
+        url: 'https://www.behance.net/gallery/66051649/ASIAN-GALLERY-RESTAURANT' 
     },
     { 
         id: '2', 
-        category: 'Brand Design',
-        projectImage: '',
-        projectTitle: 'Granite Bay Brewing Co', 
-        url: '' 
+        category: 'Packaging Design',
+        projectImage: require('../../assets/project_cover_image/ozi_coffee_tea_package_cover.png'),
+        projectTitle: 'The Ozi Coffee & Tea', 
+        url: 'https://www.behance.net/gallery/66570601/The-Ozi-Tea-and-Coffee-Packaging-Design' 
     },
     { 
         id: '3', 
-        category: 'Packaging Design',
-        image: '',
-        projectTitle: 'The Ozi Tea & Coffee', 
-        url: '' 
+        category: 'Brand Design',
+        projectImage: require('../../assets/project_cover_image/granite_bay_brewing_cover.png'),
+        projectTitle: 'Granite Bay Brewing Co', 
+        url: 'https://www.behance.net/gallery/80295607/Granite-Bay-Brewing-Co' 
     },
     { 
         id: '4', 
         category: 'UI and UX',
         projectImage: '',
         projectTitle: 'Jinsei Japanese Ramen', 
-        url: '' 
+        url: 'https://www.behance.net/gallery/66520575/JINSEI-JAPANESE-RAMEN-NOODLES' 
     },
     { 
         id: '5', 
